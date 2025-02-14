@@ -1,0 +1,45 @@
+### macOS ###
+# File invisibili e impostazioni del sistema
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# File temporanei di applicazioni (es. Word, Excel, Preview)
+~$*
+*.lock
+*.tmp
+*.temp
+.TemporaryItems
+
+# Backup automatici di file
+*.pdf~
+*.autosave
+
+### IDE/Editor ###
+# File di configurazione di VS Code
+.vscode/
+.idea/
+
+# File di progetto
+*.swp
+*.swo
+
+### Altri file generici ###
+# Cartelle di dipendenze
+/node_modules/
+/build/
+/dist/
+
+# File di log e debug
+*.log
+*.debug
+
+# File sensibili (es. variabili d'ambiente)
+.env
+.env.local
